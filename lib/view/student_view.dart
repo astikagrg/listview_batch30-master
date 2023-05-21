@@ -212,6 +212,19 @@ class _StudentViewState extends State<StudentView> {
                     child: const Text('View Students'),
                   ),
                 ),
+                SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.pushNamed(
+                        context,
+                        '/gridviewRoute',
+                        arguments: lstStudent,
+                      );
+                    },
+                    child: const Text('Gridview'),
+                  ),
+                ),
               ],
             ),
           ),

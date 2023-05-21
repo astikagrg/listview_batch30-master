@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:listview_batch30/view/card_view.dart';
 import 'package:listview_batch30/view/edit_student_view.dart';
+import 'package:listview_batch30/view/gridview_view.dart';
 import 'package:listview_batch30/view/output_view.dart';
 import 'package:listview_batch30/view/student_view.dart';
 
@@ -24,6 +25,7 @@ class _AppState extends State<App> {
         '/editStudentRoute': (context) => const EditStudentView(),
         '/student': (context) => const StudentView(),
         '/cardRoute': (context) => const CardView(),
+        '/gridviewRoute': (context) => const GridviewView(),
       },
     );
   }
